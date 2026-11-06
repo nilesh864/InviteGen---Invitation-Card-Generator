@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Circle Background -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M100,100m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0" />
+    <!-- Envelope Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,70h100v60h-100z" />
+    <!-- Envelope Flap (Closed) -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M50,70l50,35l50,-35z" />
+    <!-- Stylized "I" or Sparkle -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M100,110l5,10l10,5l-10,5l-5,10l-5,-10l-10,-5l10,-5z" />
+</vector>
